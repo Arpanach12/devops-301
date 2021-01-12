@@ -1,0 +1,26 @@
+    1  sudo apt install ansible
+    2  ansible --version
+    3  ls
+    4  sudo su
+    5  ansible --version
+    6  ls
+    7  sudo su
+    8  sudo ansible-playbook file1.yml --extra-vars 'ansible_ssh_user=ec2-user'
+    9  ls
+   10  sudo su
+   11  git -version
+   12  git --version
+   13  git clone https://github.com/arpanach12/devops-301
+   14  ls
+   15  cd devops-301/
+   16  ls
+   17  git branch
+   18  git config
+   19  git config --global --list
+   20  git config --global user.name "arpana kumari"
+   21  git config --global user.email "arpanakumari.ara@gmail.com"
+   22  git config --global --list
+   23  git config --global user.editor v1
+   24  git config credential.helper store
+   25  ls
+   26  history > history.txt
